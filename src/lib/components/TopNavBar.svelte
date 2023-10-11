@@ -28,6 +28,7 @@
 </script>
 
 <nav class="flex px-4 py-3 space-x-2 justify-between">
+    <p class="font-mono">eric muckley</p>
 	<div class="flex space-x-4">
 		{#each items as item}
 			<a href={item.url} target="_blank">
@@ -35,5 +36,4 @@
 			</a>
 		{/each}
 	</div>
-	<p class="font-mono">eric muckley</p>
 </nav>
